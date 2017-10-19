@@ -1,0 +1,72 @@
+html {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  padding: 2.5rem 0;
+  background-color: rgb(35,2,63);
+  align-items: center;
+  display: flex;
+}
+
+.header h1{
+  font-family: "Righteous", cursive;
+  font-size: 2.5rem;
+  color: rgb(255,0,171);
+  margin-top: 0;
+  margin-bottom:0;
+}
+
+.attributes {
+  color: white;
+  background-color: rgb(104,0,255);
+  padding: .5rem 0;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header .fa-search {
+  text-align:center;
+  background-color: rgb(255,102,204);
+  border-radius: 19px;
+  color: #22013f;
+  padding: .5rem;
+}
+
+.header .fa-search:hover {
+  cursor: pointer;
+  background-color: rgb(255,0,171);
+}
+
+#search-input {
+  border-radius: 19px;
+  margin-right: 1rem;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#song-list {
+  font-family: "Work Sans", sans-serif;
+  color: rgb(74,74,74);
+  display: flex;
+  margin: 0 -15px 0 -15px;
+  flex-direction: column;
+}
+
+.track {
+    border-bottom: 1px solid #cccccc;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    display: flex;
+}
+
+.track div {
+  display: flex;
+  align-items: center;
+}
+
+.fa-play-circle-o {
+  color: rgb(255,102,204);
+}
